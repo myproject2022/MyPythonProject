@@ -15,7 +15,7 @@ def printFunct(stnc):
         print("This is first String First")
         stnc()
         print("Second String:")
-        return prinString()
+        return stnc
 
     return prinString()
 
@@ -25,5 +25,6 @@ def secondPrinting():
     print("Here is Second Print")
 
 
-x = printFunct("Hello")
+s = secondPrinting
+x = printFunct(s)
 x()
